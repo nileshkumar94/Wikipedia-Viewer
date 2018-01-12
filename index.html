@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <title>WikiPedia Viewer</title>
+    <link rel="icon" href="icon.jpg" sizes="16x16">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.3/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="EditURI" type="application/rsd+xml" href="//www.mediawiki.org/w/api.php?action=rsd" />
+
+</head>
+
+<body class="bg-color">
+    <div id="inputbox" class="input-text">
+        <input type="text" placeholder="search" />
+
+        <div id="go"><i class="fa fa-search fa-w"></i></div>
+        <div id="random"><i class="fa fa-random fa-w"></i></div>
+        <div id="autocomplete" class="hidden" class="">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+    <div id="searchresults">
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

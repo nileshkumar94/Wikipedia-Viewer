@@ -1,0 +1,10 @@
+.bg-color {
+    background-color: #D4D6E2;
+}
+
+.input-text {
+    display: flex;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 20%;
+}
