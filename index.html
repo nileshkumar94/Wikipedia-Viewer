@@ -9,22 +9,29 @@
 
 </head>
 
-<body class="bg-color">
-    <div class="input-text">
-        <input id="search" type="search" class="form-control input-lg" placeholder="Search" />
-        <div class="random-icon">
-            <span>
-            <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank" target="_blank"> <br>
-               <button class="btn btn-lg search">
-                 <i class="fa fa-random fa-fw"></i>
-               </button>
-            </a>
-          </span>
+<body>
+    <div id="customSearch">
+        <div class="input-group container-fluid text-center">
+            <input id="search" type="search" class="form-control input-lg" placeholder="Search" />
         </div>
-
+        <div class="container-fluid text-center">
+            <span>
+                  <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank" target="_blank"> 
+                     <button class="btn btn-lg search">
+                       <i class="fa fa-random fa-fw"></i>
+                     </button>
+                  </a>
+                </span>
+        </div>
+    </div>
+    <div class="container">
+        <article class="results">
+        </article>
     </div>
 
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
     <script src="js/index.js"></script>
 </body>
 

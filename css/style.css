@@ -1,14 +1,3 @@
-.bg-color {
-    background-color: #D4D6E2;
-}
-
-.input-text {
-    display: flex;
-    margin-left: 25%;
-    margin-top: 20%;
-    width: 45%;
-}
-
-.random-icon:before {
-    padding-top: 6%;
+#customSearch {
+    padding: 10% 20% 0% 20%;
 }
