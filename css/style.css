@@ -1,3 +1,15 @@
 #customSearch {
-    padding: 10% 20% 0% 20%;
+    padding: 20% 20% 0% 20%;
+}
+
+#customSearch button {
+    margin-left: 45%;
+}
+
+h3 {
+    color: black;
+}
+
+.search:hover {
+    cursor: pointer;
 }
