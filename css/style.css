@@ -35,10 +35,10 @@
  
  ::placeholder {
      color: black;
-     font-size: 1.2rem;
+     font-size: 2rem;
  }
  
  .search-icon {
-     font-size: 3rem;
+     font-size: 2.8rem;
      display: flex;
  }
