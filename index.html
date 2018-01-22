@@ -3,43 +3,35 @@
 <head>
     <title>WikiPedia Viewer</title>
     <link rel="icon" href="wikipedia.png" sizes="16x16">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.3/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
 </head>
 
-<body>
+<body class="container">
     <div id="customSearch">
         <div class="container-fluid text-center" id="imageWiki">
-
-            <img src="image.png" alt="blank">
-
+            <img src="image.png" alt="WikiPedia">
         </div>
 
+        <div class="search-icon">
 
-        <div class="input-group container-fluid text-center">
-
-            <input id="search" type="search" class="form-control input-lg" placeholder="Search" />
+            <i class="material-icons search-icon">search</i><input id="search" type="text" placeholder="Search" />
         </div>
-        <div class="container-fluid text-center">
-            <span>
-                  <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank" target="_blank"> 
-                     <button class="btn btn-lg search">
-                       <i class="fa fa-random fa-fw"></i>
-                     </button>
-                  </a>
-                </span>
+        <div class="text-center">
+            <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">
+                <button class="btn btn-lg search random-btn"><i class="material-icons">autorenew</i></button>
+            </a>
         </div>
     </div>
-    <div class="container">
+    <div>
         <article class="results">
         </article>
     </div>
 
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.3/js/materialize.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
     <script src="js/index.js"></script>
 </body>
 
